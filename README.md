@@ -137,9 +137,10 @@ License
  
 MIT
  
-Author
+## Author
  
-skop1986
+- **npm**: [staskop](https://www.npmjs.com/~staskop)
+- **GitHub**: [skop1986](https://github.com/skop1986)
  
 Links
 • GitHub Repository
