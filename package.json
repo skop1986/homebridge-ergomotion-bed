@@ -1,6 +1,6 @@
 {
   "name": "homebridge-ergomotion-bed",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Homebridge plugin for Ergomotion / Askona smart beds via Bluetooth LE",
   "main": "dist/index.js",
   "scripts": {
