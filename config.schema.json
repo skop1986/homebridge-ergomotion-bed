@@ -1,0 +1,31 @@
+{
+  "pluginAlias": "AskonaBed",
+  "pluginType": "platform",
+  "singular": true,
+  "headerDisplay": "Homebridge plugin for Ergomotion smart beds via Bluetooth LE.",
+  "footerDisplay": "⚠️ Beta version. Requires Bluetooth and the bed's MAC address. See README for details.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "default": "Ergomotion Bed",
+        "description": "Display name for the accessory in HomeKit."
+      },
+      "macAddress": {
+        "title": "Bed MAC Address",
+        "type": "string",
+        "pattern": "^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$",
+        "description": "MAC address of the BLE bed device (format: D4:48:D7:7A:EA:F4). Find it with nRF Connect."
+      },
+      "debug": {
+        "title": "Debug",
+        "type": "boolean",
+        "default": false,
+        "description": "Enable verbose logging (for troubleshooting)."
+      }
+    },
+    "required": ["name", "macAddress"]
+  }
+}
